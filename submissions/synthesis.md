@@ -1,6 +1,6 @@
 # YieldWindow Treasury
 
-- **Repo:** TODO_GITHUB_URL/Synthesis-Lido-stETHTreasury
+- **Repo:** https://github.com/CrystallineButterfly/Synthesis-Lido-stETHTreasury
 - **Primary track:** Lido stETH Agent Treasury
 - **Overlap targets:** Uniswap Agentic Finance, Bankr Gateway, Celo, PayWithLocus, Octant, MetaMask Delegations
 - **Primary contract:** YieldWindowTreasury
