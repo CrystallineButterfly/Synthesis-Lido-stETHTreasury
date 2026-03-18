@@ -1,6 +1,6 @@
 # YieldWindow Treasury
 
-- **Repo:** https://github.com/CrystallineButterfly/Synthesis-Lido-stETHTreasury
+- **Repo:** TODO_GITHUB_URL/Synthesis-Lido-stETHTreasury
 - **Primary track:** Lido stETH Agent Treasury
 - **Overlap targets:** Uniswap Agentic Finance, Bankr Gateway, Celo, PayWithLocus, Octant, MetaMask Delegations
 - **Primary contract:** YieldWindowTreasury
@@ -18,10 +18,10 @@ A guarded treasury that keeps principal untouchable while letting agents spend o
   "status": "verified",
   "project_name": "YieldWindow Treasury",
   "track": "Lido stETH Agent Treasury",
-  "plan_id": "0x4eb5ddc56dd09a6e7efa786ae4410ab0eb17d55816feffc87db99bc7bc2f9dd6",
-  "simulation_hash": "0x3cd6bb66232edd8bece09820a57d89496ae26198b5c7142375b46799f381ad9d",
+  "plan_id": "0xc8981fccef8920ef5b5dd3135ddab002bf0c070edc5b3308339e7ffd7d9fe163",
+  "simulation_hash": "0x3610ff51830a24436b4626632a8bea2661604cd94449c980e4bfab6d3a1ce102",
   "execution_status": "awaiting_credentials",
   "tx_ids": [],
-  "created_at": "2026-03-18T21:44:04+00:00"
+  "created_at": "2026-03-18T23:01:18+00:00"
 }
 ```
