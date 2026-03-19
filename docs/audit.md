@@ -43,6 +43,14 @@ when live network credentials are absent. Network-only partners still report mis
 `cast send` output is now parsed for `transactionHash` explicitly before falling back to the
 raw stdout payload.
 
+## Track-specific trust boundaries
+
+- primary wrapper contract: `YieldWindowTreasury`
+- live-only partners: Uniswap, Bankr Gateway, PayWithLocus, Octant
+- offline-prepared partners: Lido (prepared_contract_call), Celo (prepared_contract_call), MetaMask Delegations (prepared_contract_call)
+- highest-sensitivity actions: bankr_gateway_compute_route, metamask_delegations_delegate_scope
+- latest verification artifact: `artifacts/verification/0x4e123112d451952e53fe9ac7b5f974b89109e5e149ec5379a66c7743ff24f257.json`
+
 ## Current posture
 
 ### Good
