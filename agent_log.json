@@ -7,5 +7,575 @@
     "details": {
       "status": "ready_for_credentials"
     }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:11+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "yield_budget",
+          "description": "Yield, reserve floor, and spending envelope.",
+          "score": 95
+        },
+        {
+          "name": "delegates",
+          "description": "Approved operators and authorized targets.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Dry-run receipt and bounded action package.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Treasury proofs and final submission notes.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:11+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan.",
+    "details": {
+      "plan_id": "0xfd6bc49555239e3d2b0a61069f239b9deee542bb0c08ccae3b409721af84aa27"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:11+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0xae9fc480e98b10525af71cc376c1cdd18a82f09d9a1714c20dbbd10ca38d099d"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:11+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Skipped live execution.",
+    "details": {
+      "missing_env": [
+        "BANKR_API_KEY",
+        "BANKR_CHAT_COMPLETIONS_URL",
+        "BANKR_MODEL",
+        "CELO_RPC_URL",
+        "LOCUS_API_KEY",
+        "LOCUS_PAYMENT_URL",
+        "OCTANT_SIGNAL_URL",
+        "RPC_URL",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:11+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "YieldWindow Treasury",
+      "track": "Lido stETH Agent Treasury",
+      "plan_id": "0xfd6bc49555239e3d2b0a61069f239b9deee542bb0c08ccae3b409721af84aa27",
+      "simulation_hash": "0xae9fc480e98b10525af71cc376c1cdd18a82f09d9a1714c20dbbd10ca38d099d",
+      "execution_status": "awaiting_credentials",
+      "tx_ids": [],
+      "created_at": "2026-03-19T03:30:11+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:11+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "yield_budget",
+          "description": "Yield, reserve floor, and spending envelope.",
+          "score": 95
+        },
+        {
+          "name": "delegates",
+          "description": "Approved operators and authorized targets.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Dry-run receipt and bounded action package.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Treasury proofs and final submission notes.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:11+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan.",
+    "details": {
+      "plan_id": "0xfd6bc49555239e3d2b0a61069f239b9deee542bb0c08ccae3b409721af84aa27"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:11+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0xae9fc480e98b10525af71cc376c1cdd18a82f09d9a1714c20dbbd10ca38d099d"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:11+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Skipped live execution.",
+    "details": {
+      "missing_env": [
+        "BANKR_API_KEY",
+        "BANKR_CHAT_COMPLETIONS_URL",
+        "BANKR_MODEL",
+        "CELO_RPC_URL",
+        "LOCUS_API_KEY",
+        "LOCUS_PAYMENT_URL",
+        "OCTANT_SIGNAL_URL",
+        "RPC_URL",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:11+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "YieldWindow Treasury",
+      "track": "Lido stETH Agent Treasury",
+      "plan_id": "0xfd6bc49555239e3d2b0a61069f239b9deee542bb0c08ccae3b409721af84aa27",
+      "simulation_hash": "0xae9fc480e98b10525af71cc376c1cdd18a82f09d9a1714c20dbbd10ca38d099d",
+      "execution_status": "awaiting_credentials",
+      "tx_ids": [],
+      "created_at": "2026-03-19T03:30:11+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:39:23.678178+00:00",
+    "stage": "security_review",
+    "actor": "audit_pass",
+    "message": "Completed the shared hardening and offline-artifact audit pass.",
+    "details": {
+      "status": "audited_ready_pending_live_credentials",
+      "primary_contract": "YieldWindowTreasury.sol"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:48:55+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "yield_budget",
+          "description": "Yield, reserve floor, and spending envelope.",
+          "score": 95
+        },
+        {
+          "name": "delegates",
+          "description": "Approved operators and authorized targets.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Dry-run receipt and bounded action package.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Treasury proofs and final submission notes.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:48:55+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0x71afda771877495af1b7c2953d13d7d7be8c8e04247bd974d91188b14cd75a64",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:48:55+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x482c0f16cadffdf88b7d9854f60bc82d3f5daf9dd0e22e8ff22cfcf93385fc07"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:48:55+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "BANKR_API_KEY",
+        "BANKR_CHAT_COMPLETIONS_URL",
+        "BANKR_MODEL",
+        "LOCUS_API_KEY",
+        "LOCUS_PAYMENT_URL",
+        "OCTANT_SIGNAL_URL",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL"
+      ],
+      "artifact_count": 3
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:48:55+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "YieldWindow Treasury",
+      "track": "Lido stETH Agent Treasury",
+      "plan_id": "0x71afda771877495af1b7c2953d13d7d7be8c8e04247bd974d91188b14cd75a64",
+      "simulation_hash": "0x482c0f16cadffdf88b7d9854f60bc82d3f5daf9dd0e22e8ff22cfcf93385fc07",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/lido_yield_route.json",
+        "artifacts/onchain_intents/celo_payment_settle.json",
+        "artifacts/onchain_intents/metamask_delegations_delegate_scope.json"
+      ],
+      "partner_statuses": {
+        "Lido": "prepared_contract_call",
+        "Uniswap": "awaiting_credentials",
+        "Bankr Gateway": "awaiting_credentials",
+        "Celo": "prepared_contract_call",
+        "PayWithLocus": "awaiting_credentials",
+        "Octant": "awaiting_credentials",
+        "MetaMask Delegations": "prepared_contract_call"
+      },
+      "created_at": "2026-03-19T03:48:55+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:44+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "yield_budget",
+          "description": "Yield, reserve floor, and spending envelope.",
+          "score": 95
+        },
+        {
+          "name": "delegates",
+          "description": "Approved operators and authorized targets.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Dry-run receipt and bounded action package.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Treasury proofs and final submission notes.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:44+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0x5ea631282af0f272d65d2f8f7953775538c7a928c8a5839fe0cd038b9247a698",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:44+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x2847c0f5ed7ac8fbb35a8ae2e717cf6414f25630f09afa19daf57053a43f1704"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:44+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "BANKR_API_KEY",
+        "BANKR_CHAT_COMPLETIONS_URL",
+        "BANKR_MODEL",
+        "LOCUS_API_KEY",
+        "LOCUS_PAYMENT_URL",
+        "OCTANT_SIGNAL_URL",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL"
+      ],
+      "artifact_count": 3
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:44+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "YieldWindow Treasury",
+      "track": "Lido stETH Agent Treasury",
+      "plan_id": "0x5ea631282af0f272d65d2f8f7953775538c7a928c8a5839fe0cd038b9247a698",
+      "simulation_hash": "0x2847c0f5ed7ac8fbb35a8ae2e717cf6414f25630f09afa19daf57053a43f1704",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/lido_yield_route.json",
+        "artifacts/onchain_intents/celo_payment_settle.json",
+        "artifacts/onchain_intents/metamask_delegations_delegate_scope.json"
+      ],
+      "partner_statuses": {
+        "Lido": "prepared_contract_call",
+        "Uniswap": "awaiting_credentials",
+        "Bankr Gateway": "awaiting_credentials",
+        "Celo": "prepared_contract_call",
+        "PayWithLocus": "awaiting_credentials",
+        "Octant": "awaiting_credentials",
+        "MetaMask Delegations": "prepared_contract_call"
+      },
+      "created_at": "2026-03-19T03:50:44+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:48+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "yield_budget",
+          "description": "Yield, reserve floor, and spending envelope.",
+          "score": 95
+        },
+        {
+          "name": "delegates",
+          "description": "Approved operators and authorized targets.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Dry-run receipt and bounded action package.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Treasury proofs and final submission notes.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:48+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0x4b5fb74225c2fc612884901daf643f31bd058a64ec3745f1f990ba53d3bb231c",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:48+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x29595872e37ad4e6c936b7323a00f842cc9058a29cfeef5c2eef4beeec2dd4ea"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:48+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "BANKR_API_KEY",
+        "BANKR_CHAT_COMPLETIONS_URL",
+        "BANKR_MODEL",
+        "LOCUS_API_KEY",
+        "LOCUS_PAYMENT_URL",
+        "OCTANT_SIGNAL_URL",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL"
+      ],
+      "artifact_count": 3
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:48+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "YieldWindow Treasury",
+      "track": "Lido stETH Agent Treasury",
+      "plan_id": "0x4b5fb74225c2fc612884901daf643f31bd058a64ec3745f1f990ba53d3bb231c",
+      "simulation_hash": "0x29595872e37ad4e6c936b7323a00f842cc9058a29cfeef5c2eef4beeec2dd4ea",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/lido_yield_route.json",
+        "artifacts/onchain_intents/celo_payment_settle.json",
+        "artifacts/onchain_intents/metamask_delegations_delegate_scope.json"
+      ],
+      "partner_statuses": {
+        "Lido": "prepared_contract_call",
+        "Uniswap": "awaiting_credentials",
+        "Bankr Gateway": "awaiting_credentials",
+        "Celo": "prepared_contract_call",
+        "PayWithLocus": "awaiting_credentials",
+        "Octant": "awaiting_credentials",
+        "MetaMask Delegations": "prepared_contract_call"
+      },
+      "created_at": "2026-03-19T03:51:48+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:14+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "yield_budget",
+          "description": "Yield, reserve floor, and spending envelope.",
+          "score": 95
+        },
+        {
+          "name": "delegates",
+          "description": "Approved operators and authorized targets.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Dry-run receipt and bounded action package.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Treasury proofs and final submission notes.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:14+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0x4e123112d451952e53fe9ac7b5f974b89109e5e149ec5379a66c7743ff24f257",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:14+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x943e4e7fe7f4e60f2e0dd03a05ae35d5fd1e692f95d608e98761a29958ad1805"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:14+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "BANKR_API_KEY",
+        "BANKR_CHAT_COMPLETIONS_URL",
+        "BANKR_MODEL",
+        "LOCUS_API_KEY",
+        "LOCUS_PAYMENT_URL",
+        "OCTANT_SIGNAL_URL",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL"
+      ],
+      "artifact_count": 3
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:14+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "YieldWindow Treasury",
+      "track": "Lido stETH Agent Treasury",
+      "plan_id": "0x4e123112d451952e53fe9ac7b5f974b89109e5e149ec5379a66c7743ff24f257",
+      "simulation_hash": "0x943e4e7fe7f4e60f2e0dd03a05ae35d5fd1e692f95d608e98761a29958ad1805",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/lido_yield_route.json",
+        "artifacts/onchain_intents/celo_payment_settle.json",
+        "artifacts/onchain_intents/metamask_delegations_delegate_scope.json"
+      ],
+      "partner_statuses": {
+        "Lido": "prepared_contract_call",
+        "Uniswap": "awaiting_credentials",
+        "Bankr Gateway": "awaiting_credentials",
+        "Celo": "prepared_contract_call",
+        "PayWithLocus": "awaiting_credentials",
+        "Octant": "awaiting_credentials",
+        "MetaMask Delegations": "prepared_contract_call"
+      },
+      "created_at": "2026-03-19T03:52:14+00:00"
+    }
   }
 ]
