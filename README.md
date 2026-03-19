@@ -5,7 +5,7 @@
 - **Category:** treasury
 - **Primary contract:** `YieldWindowTreasury`
 - **Primary module:** `lido_yield_operator`
-- **Submission status:** implementation ready, waiting for credentials and TxIDs.
+- **Submission status:** audited and offline-demo ready; optional live partner credentials unlock network execution.
 
 ## What this repo does
 
@@ -67,6 +67,32 @@ flowchart TD
 3. Persist a dry-run artifact before any live execution.
 4. Enforce onchain policy through the guarded contract wrapper.
 5. Verify outputs, update receipts, and render submission material.
+
+## Current readiness
+
+- **Latest verification:** `verified` at `2026-03-19T03:52:14+00:00`
+- **Execution mode:** `offline_prepared`
+- **Offline-prepared partners:** Lido (prepared_contract_call), Celo (prepared_contract_call), MetaMask Delegations (prepared_contract_call)
+- **Live credential blockers:** Uniswap, Bankr Gateway, PayWithLocus, Octant
+- **Audit docs:** `docs/audit.md`, `docs/live_readiness.md`
+
+## Most sensitive actions
+
+- `bankr_gateway_compute_route` (Bankr Gateway, high)
+- `metamask_delegations_delegate_scope` (MetaMask Delegations, high)
+
+## Live blocker details
+
+- **Uniswap** — UNISWAP_API_KEY, UNISWAP_QUOTE_URL — https://developers.uniswap.org/
+- **Bankr Gateway** — BANKR_API_KEY, BANKR_CHAT_COMPLETIONS_URL, BANKR_MODEL — https://bankr.bot/
+- **PayWithLocus** — LOCUS_API_KEY, LOCUS_PAYMENT_URL — https://docs.locus.finance/
+- **Octant** — OCTANT_SIGNAL_URL — https://octant.app/
+
+## Latest evidence artifacts
+
+- `artifacts/onchain_intents/lido_yield_route.json`
+- `artifacts/onchain_intents/celo_payment_settle.json`
+- `artifacts/onchain_intents/metamask_delegations_delegate_scope.json`
 
 ## Security controls
 
